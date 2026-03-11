@@ -22,8 +22,7 @@ My research focuses on the intersection of Bioinformatics, Machine Learning, and
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.02.23*: &nbsp;🎉🎉 Glad to be one of the team BMBL and MaTRIX at OSU!
 
 # 💻 Work Experiences
 - *2026.02 - till now*, Post Doctoral Scholar of Computational Biology, the Ohio State University, Columbus, US. 
@@ -38,6 +37,10 @@ My research focuses on the intersection of Bioinformatics, Machine Learning, and
 
 - **Fu J#**, Xiao K#, He Y, Tu J*. [Non-Random Distribution of G-Quadruplex Structures Reveals Regulatory and
 Ecological Adaptations in Bacterial Genomes](https://www.mdpi.com/1422-0067/26/20/10025), **International Journal of Molecular Sciences**, 2025.
+- **Fu J**, Chen T, Lu N, Pan X*, Tu J*. [Decoding the genomic determinants of G-quadruplex stability: a comprehensive analysis of loop architecture and genomic context in the human genome](https://www.sciencedirect.com/science/article/pii/S0300908425002159?via%3Dihub), **Biochimie**, 2025.
+- **Fu J#**, He S#, Yang Y#, Chen Z, Qiao Y, Lu N, Lu Z, Tu J*. [HSCGD: a comprehensive database of single-cell whole-genome data and metadata](https://academic.oup.com/nar/article/53/D1/D1029/7848846), **Nucleic Acids Research**, 2025.
+- 
+
 
 # 🎖 Honors and Awards
 
