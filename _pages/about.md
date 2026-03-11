@@ -39,7 +39,11 @@ My research focuses on the intersection of Bioinformatics, Machine Learning, and
 Ecological Adaptations in Bacterial Genomes](https://www.mdpi.com/1422-0067/26/20/10025), **International Journal of Molecular Sciences**, 2025.
 - **Fu J**, Chen T, Lu N, Pan X*, Tu J*. [Decoding the genomic determinants of G-quadruplex stability: a comprehensive analysis of loop architecture and genomic context in the human genome](https://www.sciencedirect.com/science/article/pii/S0300908425002159?via%3Dihub), **Biochimie**, 2025.
 - **Fu J#**, He S#, Yang Y#, Chen Z, Qiao Y, Lu N, Lu Z, Tu J*. [HSCGD: a comprehensive database of single-cell whole-genome data and metadata](https://academic.oup.com/nar/article/53/D1/D1029/7848846), **Nucleic Acids Research**, 2025.
-- 
+- **Fu J**, Tu J*. [Extracellular RNA: A new perspective on the human pre-implantation embryos](https://www.sciencedirect.com/science/article/pii/S2666979X23003166?via%3Dihub), **Cell Genomics**,2024.
+- **Fu J**, Tu T, Wen T, Zhang Q, Huang C, Lu Z*, Tu J*. [High specific microRNA detection based on G-quadruplex sensitive fluorescence under isothermal amplification](https://www.sciencedirect.com/science/article/pii/S187220402300066X), **Chinese Journal of Analytical Chemistry**, 2023.
+- **Fu J**, Wu L, Hu G, Li F, Ge Q, Lu Z*, Tu J*. [Solid-state nanopore analysis on the conformation change of DNA polymerase I induced by a DNA substrate](https://pubs.rsc.org/en/content/articlelanding/2022/an/d2an00567k), **Analyst**, 2022.
+- **Fu J**, Wu L, Qiao Y, Tu J*, Lu Z*. [Microfluidic Systems Applied in Solid-State Nanopore Sensors](https://www.mdpi.com/2072-666X/11/3/332), **Micromachines**, 2020.
+- **Fu J**, Qiao Y, Song H, Xu Z, Tu J*, Ba L*, Lu Z*. [Advanced transferring of large-area freestanding graphene films by using fullerenes](https://iopscience.iop.org/article/10.1088/1361-6528/ab0cab), **Nanotechnology**, 2019.
 
 
 # 🎖 Honors and Awards
