@@ -47,7 +47,7 @@ Ecological Adaptations in Bacterial Genomes](https://www.mdpi.com/1422-0067/26/2
 
 
 # 🎖 Honors and Awards
-
+- Two times National Encouragement Schoarship (2014, 2015)
 
 
 # 💬 Invited Talks
