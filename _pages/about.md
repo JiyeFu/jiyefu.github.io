@@ -40,7 +40,8 @@ My research interest includes neural machine translation and computer vision. I 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- **Fu J**, Xiao K, He Y, Tu J. [Non-Random Distribution of G-Quadruplex Structures Reveals Regulatory and
+Ecological Adaptations in Bacterial Genomes](https://www.mdpi.com/1422-0067/26/20/10025), **International Journal of Molecular Sciences**, 2025.
 
 # 🎖 Honors and Awards
 
