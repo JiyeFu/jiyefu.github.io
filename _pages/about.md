@@ -22,7 +22,7 @@ My research focuses on the intersection of Bioinformatics, Machine Learning, and
 
 
 # 🔥 News
-- *2026.02.23*: &nbsp;🎉🎉 Glad to be one of the team BMBL and MaTRIX at OSU!
+- *2026.02.23*: &nbsp;🎉🎉 Glad to be one of the team [BMBL](https://u.osu.edu/bmbl/) and [MaTRIX](https://u.osu.edu/matrix/) at OSU!
 
 # 💻 Work Experiences
 - *2026.02 - till now*, Post Doctoral Scholar of Computational Biology, the Ohio State University, Columbus, US. 
