@@ -51,7 +51,6 @@ Ecological Adaptations in Bacterial Genomes](https://www.mdpi.com/1422-0067/26/2
 
 
 # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
+- *2024.11*, A comprehensive database of single-cell whole-genome data and metadata. National Doctoral Academic Forum on Biomedical Sensing and Detection, Taizhou, Zhejiang, China. 
+- *2023.11*, Machine learning method for G-quadruplex detection based on nucleobase quality analysis from whole genome resequencing data. GIW-ISCB Asia, Singapore.
 
