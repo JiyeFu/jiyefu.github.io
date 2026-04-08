@@ -49,6 +49,43 @@ My research focuses on the intersection of Bioinformatics, Machine Learning, and
 <span class='anchor' id='publications'></span>
 # 📝 Publications 
 
+<div class="featured-publications">
+  <article class="featured-paper">
+    <div class="featured-paper__meta">Featured Paper • 2025</div>
+    <h3 class="featured-paper__title"><a href="https://www.mdpi.com/1422-0067/26/20/10025">Non-Random Distribution of G-Quadruplex Structures Reveals Regulatory and Ecological Adaptations in Bacterial Genomes</a></h3>
+    <p class="featured-paper__venue"><strong>International Journal of Molecular Sciences</strong>, 2025</p>
+    <div class="featured-paper__tags">
+      <span>Bacterial Genomes</span>
+      <span>G-Quadruplexes</span>
+      <span>Genome Regulation</span>
+    </div>
+  </article>
+
+  <article class="featured-paper">
+    <div class="featured-paper__meta">Featured Paper • 2025</div>
+    <h3 class="featured-paper__title"><a href="https://www.sciencedirect.com/science/article/pii/S0300908425002159?via%3Dihub">Decoding the genomic determinants of G-quadruplex stability: a comprehensive analysis of loop architecture and genomic context in the human genome</a></h3>
+    <p class="featured-paper__venue"><strong>Biochimie</strong>, 2025</p>
+    <div class="featured-paper__tags">
+      <span>Human Genome</span>
+      <span>G4 Stability</span>
+      <span>Sequence Context</span>
+    </div>
+  </article>
+
+  <article class="featured-paper">
+    <div class="featured-paper__meta">Featured Resource • 2025</div>
+    <h3 class="featured-paper__title"><a href="https://academic.oup.com/nar/article/53/D1/D1029/7848846">HSCGD: a comprehensive database of single-cell whole-genome data and metadata</a></h3>
+    <p class="featured-paper__venue"><strong>Nucleic Acids Research</strong>, 2025</p>
+    <div class="featured-paper__tags">
+      <span>Single-Cell Genomics</span>
+      <span>Database</span>
+      <span>Metadata Resource</span>
+    </div>
+  </article>
+</div>
+
+### Full Publication List
+
 - **Fu J#**, Xiao K#, He Y, Tu J*. [Non-Random Distribution of G-Quadruplex Structures Reveals Regulatory and
 Ecological Adaptations in Bacterial Genomes](https://www.mdpi.com/1422-0067/26/20/10025), **International Journal of Molecular Sciences**, 2025.
 - **Fu J**, Chen T, Lu N, Pan X*, Tu J*. [Decoding the genomic determinants of G-quadruplex stability: a comprehensive analysis of loop architecture and genomic context in the human genome](https://www.sciencedirect.com/science/article/pii/S0300908425002159?via%3Dihub), **Biochimie**, 2025.
