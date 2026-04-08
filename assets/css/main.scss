@@ -242,6 +242,8 @@ body:before {
 }
 
 .section-card {
+    position: relative;
+    overflow: hidden;
     margin: 0 0 1.35rem;
     padding: 1.35rem 1.2rem 1.1rem;
     border: 1px solid var(--line);
@@ -252,6 +254,31 @@ body:before {
 
     @include breakpoint($medium) {
         padding: 1.6rem 1.6rem 1.3rem;
+    }
+
+    &:before {
+        content: "";
+        position: absolute;
+        inset: 0 auto 0 0;
+        width: 6px;
+        border-radius: 24px 0 0 24px;
+        background: linear-gradient(180deg, rgba(141, 75, 50, 0.55), rgba(45, 91, 115, 0.35));
+    }
+
+    &:after {
+        content: attr(data-label);
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        padding: 0.35rem 0.7rem;
+        border: 1px solid rgba(95, 111, 122, 0.12);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.55);
+        color: var(--ink-soft);
+        font-size: 0.68rem;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
     }
 
     h1 {
@@ -273,6 +300,14 @@ body:before {
 
     li {
         margin-bottom: 0.9rem;
+    }
+
+    @include breakpoint(max-width $small) {
+        &:after {
+            position: static;
+            display: inline-flex;
+            margin-bottom: 0.8rem;
+        }
     }
 }
 
@@ -298,4 +333,81 @@ body:before {
 
 .section-card--compact {
     height: 100%;
+}
+
+.section-card--news {
+    background:
+      radial-gradient(circle at top right, rgba(141, 75, 50, 0.12), transparent 28%),
+      var(--paper-strong);
+
+    &:before {
+        background: linear-gradient(180deg, #b96a4b, #8d4b32);
+    }
+}
+
+.section-card--experience {
+    background:
+      linear-gradient(180deg, rgba(45, 91, 115, 0.06), transparent 28%),
+      var(--paper-strong);
+
+    &:before {
+        background: linear-gradient(180deg, #3d7b8b, #2d5b73);
+    }
+}
+
+.section-card--education {
+    background:
+      radial-gradient(circle at top left, rgba(82, 121, 98, 0.12), transparent 25%),
+      var(--paper-strong);
+
+    &:before {
+        background: linear-gradient(180deg, #648f72, #527962);
+    }
+}
+
+.section-card--publications {
+    background:
+      linear-gradient(135deg, rgba(141, 75, 50, 0.05), rgba(45, 91, 115, 0.05)),
+      var(--paper-strong);
+
+    &:before {
+        background: linear-gradient(180deg, #8d4b32, #2d5b73);
+    }
+
+    li {
+        position: relative;
+        padding-left: 0.5rem;
+    }
+
+    li:before {
+        content: "";
+        position: absolute;
+        left: -0.35rem;
+        top: 0.5rem;
+        width: 0.45rem;
+        height: 0.45rem;
+        border-radius: 50%;
+        background: rgba(141, 75, 50, 0.4);
+        box-shadow: 0 0 0 4px rgba(141, 75, 50, 0.08);
+    }
+}
+
+.section-card--awards {
+    background:
+      radial-gradient(circle at top right, rgba(217, 181, 94, 0.22), transparent 25%),
+      var(--paper-strong);
+
+    &:before {
+        background: linear-gradient(180deg, #c79d34, #9e7625);
+    }
+}
+
+.section-card--talks {
+    background:
+      radial-gradient(circle at bottom left, rgba(109, 130, 188, 0.16), transparent 28%),
+      var(--paper-strong);
+
+    &:before {
+        background: linear-gradient(180deg, #6d82bc, #53659a);
+    }
 }
