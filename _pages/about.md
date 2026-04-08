@@ -22,6 +22,7 @@ My research focuses on the intersection of Bioinformatics, Machine Learning, and
 
 
 # 🔥 News
+- *2026.04.08*: &nbsp;I'm testing Codex to see if it can help me update the website directly.
 - *2026.02.23*: &nbsp;🎉🎉 Glad to be one of the team [BMBL](https://u.osu.edu/bmbl/) and [MaTRIX](https://u.osu.edu/matrix/) at OSU!
 
 # 💻 Work Experiences
@@ -53,4 +54,3 @@ Ecological Adaptations in Bacterial Genomes](https://www.mdpi.com/1422-0067/26/2
 # 💬 Invited Talks
 - *2024.11*, A comprehensive database of single-cell whole-genome data and metadata. National Doctoral Academic Forum on Biomedical Sensing and Detection, Taizhou, Zhejiang, China. 
 - *2023.11*, Machine learning method for G-quadruplex detection based on nucleobase quality analysis from whole genome resequencing data. GIW-ISCB Asia, Singapore.
-
