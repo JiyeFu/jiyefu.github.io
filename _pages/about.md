@@ -16,23 +16,25 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I am a Postdoctoral Scholar at The Ohio State University (OSU). I received my Ph.D. in Biomedical Engineering from Southeast University (China) in 2025, where I was part of the State Key Laboratory of Digital Medical Engineering.
+I am a Postdoctoral Scholar in Computational Biology at The Ohio State University (OSU). I received my Ph.D. in Biomedical Engineering from Southeast University in 2025, where I conducted research at the State Key Laboratory of Digital Medical Engineering.
 
-My research focuses on the intersection of Bioinformatics, Machine Learning, and Single-Cell Genomics. I am particularly interested in developing computational frameworks to decode complex genomic structures, such as G-quadruplexes (G4), and building large-scale data resources like the Human Single-Cell Genome Database (HSCGD). My work combines "dry-lab" expertise in machine learning (Python/R) with a solid foundation in "wet-lab" molecular techniques and nanopore sensing. My goal at OSU is to leverage these multi-disciplinary tools to further explore genomic adaptations and their implications in human health and disease.
+My research lies at the intersection of bioinformatics, machine learning, and single-cell genomics. I am particularly interested in developing computational methods to decode complex genomic structures, including G-quadruplexes (G4), and in building large-scale genomic resources such as the Human Single-Cell Genome Database (HSCGD).
+
+My work integrates computational analysis in Python and R with a strong foundation in experimental molecular biology and nanopore sensing. At OSU, I aim to use these complementary approaches to investigate genomic variation, cellular adaptation, and their implications for human health and disease.
 
 
 # 🔥 News
-- *2026.04.08*: &nbsp;I'm testing Codex to see if it can help me update the website directly.
-- *2026.02.23*: &nbsp;🎉🎉 Glad to be one of the team [BMBL](https://u.osu.edu/bmbl/) and [MaTRIX](https://u.osu.edu/matrix/) at OSU!
+- *2026.04.08*: &nbsp;Tested an end-to-end Codex workflow for directly updating this website from GitHub.
+- *2026.02.23*: &nbsp;Excited to join the [BMBL](https://u.osu.edu/bmbl/) and [MaTRIX](https://u.osu.edu/matrix/) teams at OSU.
 
-# 💻 Work Experiences
-- *2026.02 - till now*, Post Doctoral Scholar of Computational Biology, The Ohio State University, Columbus, US. 
+# 💻 Professional Experience
+- *2026.02 - present*, Postdoctoral Scholar in Computational Biology, The Ohio State University, Columbus, OH, USA.
 - *2025.07 - 2025.12*, Research Assistant, Southeast University, Nanjing, China.
 
-# 📖 Educations and Works
-- *2019.09 - 2025.06*, Doctor of Biomedical Engineering, Southeast University, Nanjing, China. 
-- *2016.09 - 2019.06*, Master of Biomedical Engineering, Southeast University, Nanjing, China. 
-- *2013.09 - 2016.06*, Bachelor of Biomedical Engineering, Northeastern University, Shenyang, China. 
+# 📖 Education
+- *2019.09 - 2025.06*, Ph.D. in Biomedical Engineering, Southeast University, Nanjing, China.
+- *2016.09 - 2019.06*, M.S. in Biomedical Engineering, Southeast University, Nanjing, China.
+- *2013.09 - 2016.06*, B.S. in Biomedical Engineering, Northeastern University, Shenyang, China.
 
 # 📝 Publications 
 
@@ -48,9 +50,9 @@ Ecological Adaptations in Bacterial Genomes](https://www.mdpi.com/1422-0067/26/2
 
 
 # 🎖 Honors and Awards
-- Two times National Encouragement Schoarship (2014, 2015)
+- National Encouragement Scholarship (2014, 2015)
 
 
 # 💬 Invited Talks
-- *2024.11*, A comprehensive database of single-cell whole-genome data and metadata. National Doctoral Academic Forum on Biomedical Sensing and Detection, Taizhou, Zhejiang, China. 
-- *2023.11*, Machine learning method for G-quadruplex detection based on nucleobase quality analysis from whole genome resequencing data. GIW-ISCB Asia, Singapore.
+- *2024.11*, "A comprehensive database of single-cell whole-genome data and metadata." National Doctoral Academic Forum on Biomedical Sensing and Detection, Taizhou, Zhejiang, China.
+- *2023.11*, "Machine learning method for G-quadruplex detection based on nucleobase quality analysis from whole-genome resequencing data." GIW-ISCB Asia, Singapore.

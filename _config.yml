@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jiye Fu"
-description              : "Research interests: Sequencing technologies, DNA structures, Bioinformatics, AI, nanopore "
+description              : "Postdoctoral scholar in computational biology at The Ohio State University working on bioinformatics, machine learning, single-cell genomics, and genomic structure analysis."
 repository               : "JiyeFu/jiyefu.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jiye Fu"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "The Ohio State University"
-  location         : "Columbus, US"
+  bio              : "Postdoctoral Scholar in Computational Biology at The Ohio State University"
+  location         : "Columbus, OH, USA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=x53ad20AAAAJ"
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "JiyeFu"
   google_plus      :
   keybase          :
   instagram        :
