@@ -4,6 +4,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 import os
 import re
+import difflib
+import urllib.parse
+import urllib.request
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -27,6 +30,10 @@ def load_feature_metadata():
 
 def normalize_name(value):
     return re.sub(r"[^a-z0-9]", "", value.lower())
+
+
+def normalize_title(value):
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9]+", " ", value.lower())).strip()
 
 
 def emphasize_author_names(author_string, name_variants):
@@ -53,11 +60,76 @@ def extract_year(bib):
     return ""
 
 
-def publication_url(scholar_id, pub):
+def scholar_publication_url(scholar_id, pub):
     pub_id = pub.get("author_pub_id", "")
     return pub.get("pub_url") or pub.get("eprint_url") or (
         f"https://scholar.google.com/citations?view_op=view_citation&hl=en&user={scholar_id}&citation_for_view={scholar_id}:{pub_id}"
     )
+
+
+def crossref_lookup(title, year="", rows=5):
+    params = urllib.parse.urlencode(
+        {
+            "query.title": title,
+            "rows": rows,
+            "select": "DOI,title,published-print,published-online,issued,URL",
+        }
+    )
+    request = urllib.request.Request(
+        f"https://api.crossref.org/works?{params}",
+        headers={
+            "User-Agent": "Codex academic homepage updater (mailto:fujisann006@gmail.com)",
+        },
+    )
+    with urllib.request.urlopen(request, timeout=20) as response:
+        payload = json.load(response)
+    return payload.get("message", {}).get("items", [])
+
+
+def crossref_item_year(item):
+    for key in ("published-print", "published-online", "issued"):
+        parts = item.get(key, {}).get("date-parts", [])
+        if parts and parts[0]:
+            return str(parts[0][0])
+    return ""
+
+
+def resolve_publication_link(title, scholar_url, year="", link_overrides=None):
+    link_overrides = link_overrides or {}
+    if title in link_overrides:
+        return link_overrides[title], ""
+
+    normalized_title = normalize_title(title)
+
+    try:
+        best_item = None
+        best_score = 0.0
+        for item in crossref_lookup(title, year=year):
+            candidate_title = ""
+            titles = item.get("title", [])
+            if titles:
+                candidate_title = titles[0]
+            normalized_candidate = normalize_title(candidate_title)
+            score = difflib.SequenceMatcher(None, normalized_title, normalized_candidate).ratio()
+            if normalized_candidate == normalized_title:
+                score += 0.2
+            item_year = crossref_item_year(item)
+            if year and item_year and item_year == str(year):
+                score += 0.05
+            if score > best_score:
+                best_item = item
+                best_score = score
+
+        if best_item and best_score >= 0.92:
+            doi = best_item.get("DOI", "")
+            if doi:
+                return f"https://doi.org/{doi}", doi
+            if best_item.get("URL"):
+                return best_item["URL"], ""
+    except Exception:
+        pass
+
+    return scholar_url, ""
 
 
 def is_first_authored(author_string, name_variants):
@@ -72,6 +144,7 @@ def build_publication_data(author, scholar_id, overrides):
         ["J Fu", "Fu J", "Jiye Fu", "FU Jiye"],
     )
     corresponding_ids = set(overrides.get("corresponding_author_ids", []))
+    link_overrides = overrides.get("link_overrides", {})
 
     grouped = {
         "updated": datetime.now(timezone.utc).isoformat(),
@@ -85,6 +158,13 @@ def build_publication_data(author, scholar_id, overrides):
         bib = pub.get("bib", {})
         authors = bib.get("author", "").strip()
         pub_id = pub.get("author_pub_id", "")
+        scholar_url = scholar_publication_url(scholar_id, pub)
+        resolved_url, doi = resolve_publication_link(
+            bib.get("title", "").strip(),
+            scholar_url,
+            year=extract_year(bib),
+            link_overrides=link_overrides,
+        )
         entry = {
             "id": pub_id,
             "title": bib.get("title", "").strip(),
@@ -92,7 +172,9 @@ def build_publication_data(author, scholar_id, overrides):
             "authors_html": emphasize_author_names(authors, name_variants),
             "venue": extract_venue(bib),
             "year": extract_year(bib),
-            "url": publication_url(scholar_id, pub),
+            "url": resolved_url,
+            "doi": doi,
+            "scholar_url": scholar_url,
             "citation_count": pub.get("num_citations", 0),
         }
 

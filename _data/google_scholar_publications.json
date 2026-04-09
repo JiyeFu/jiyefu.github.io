@@ -10,7 +10,7 @@
       "authors_html": "<strong>J Fu</strong>, S He, Y Yang, Z Chen, Y Qiao, N Lu, Z Lu, J Tu",
       "venue": "Nucleic Acids Research 53 (D1), D1029-D1038",
       "year": "2025",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:zYLM7Y9cAGgC",
+      "url": "https://doi.org/10.1093/nar/gkae971",
       "citation_count": 5,
       "article_type": "database",
       "journal_rank": 1,
@@ -18,7 +18,9 @@
         "Single-Cell Genomics",
         "Database",
         "Metadata Resource"
-      ]
+      ],
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:zYLM7Y9cAGgC",
+      "doi": "10.1093/nar/gkae971"
     },
     {
       "id": "ufrVoPGSRksC",
@@ -27,7 +29,7 @@
       "authors_html": "<strong>J Fu</strong>, T Chen, N Lu, X Pan, J Tu",
       "venue": "Biochimie",
       "year": "2025",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:ufrVoPGSRksC",
+      "url": "https://doi.org/10.1016/j.biochi.2025.09.006",
       "citation_count": 2,
       "article_type": "research",
       "journal_rank": 2,
@@ -35,7 +37,9 @@
         "Human Genome",
         "G4 Stability",
         "Sequence Context"
-      ]
+      ],
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:ufrVoPGSRksC",
+      "doi": "10.1016/j.biochi.2025.09.006"
     },
     {
       "id": "LkGwnXOMwfcC",
@@ -44,7 +48,7 @@
       "authors_html": "<strong>J Fu</strong>, K Xiao, Y He, J Tu",
       "venue": "International Journal of Molecular Sciences 26 (20), 10025",
       "year": "2025",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:LkGwnXOMwfcC",
+      "url": "https://doi.org/10.3390/ijms262010025",
       "citation_count": 0,
       "article_type": "research",
       "journal_rank": 3,
@@ -52,7 +56,9 @@
         "Bacterial Genomes",
         "G-Quadruplexes",
         "Genome Regulation"
-      ]
+      ],
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:LkGwnXOMwfcC",
+      "doi": "10.3390/ijms262010025"
     }
   ],
   "first_or_corresponding": [
@@ -63,8 +69,10 @@
       "authors_html": "<strong>J Fu</strong>, S He, Y Yang, Z Chen, Y Qiao, N Lu, Z Lu, J Tu",
       "venue": "Nucleic Acids Research 53 (D1), D1029-D1038",
       "year": "2025",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:zYLM7Y9cAGgC",
-      "citation_count": 5
+      "url": "https://doi.org/10.1093/nar/gkae971",
+      "citation_count": 5,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:zYLM7Y9cAGgC",
+      "doi": "10.1093/nar/gkae971"
     },
     {
       "id": "ufrVoPGSRksC",
@@ -73,8 +81,10 @@
       "authors_html": "<strong>J Fu</strong>, T Chen, N Lu, X Pan, J Tu",
       "venue": "Biochimie",
       "year": "2025",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:ufrVoPGSRksC",
-      "citation_count": 2
+      "url": "https://doi.org/10.1016/j.biochi.2025.09.006",
+      "citation_count": 2,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:ufrVoPGSRksC",
+      "doi": "10.1016/j.biochi.2025.09.006"
     },
     {
       "id": "LkGwnXOMwfcC",
@@ -83,8 +93,10 @@
       "authors_html": "<strong>J Fu</strong>, K Xiao, Y He, J Tu",
       "venue": "International Journal of Molecular Sciences 26 (20), 10025",
       "year": "2025",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:LkGwnXOMwfcC",
-      "citation_count": 0
+      "url": "https://doi.org/10.3390/ijms262010025",
+      "citation_count": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:LkGwnXOMwfcC",
+      "doi": "10.3390/ijms262010025"
     },
     {
       "id": "qjMakFHDy7sC",
@@ -93,8 +105,10 @@
       "authors_html": "<strong>J Fu</strong>, J Tu",
       "venue": "Cell Genomics 4 (1)",
       "year": "2024",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:qjMakFHDy7sC",
-      "citation_count": 0
+      "url": "https://doi.org/10.1016/j.xgen.2023.100472",
+      "citation_count": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:qjMakFHDy7sC",
+      "doi": "10.1016/j.xgen.2023.100472"
     },
     {
       "id": "eQOLeE2rZwMC",
@@ -103,8 +117,10 @@
       "authors_html": "<strong>FU Jiye</strong>, TU Tiantian, WEN Tian, LU Zuhong, TU Jing",
       "venue": "Chinese Journal of Analytical Chemistry 51 (8), 100292",
       "year": "2023",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:eQOLeE2rZwMC",
-      "citation_count": 2
+      "url": "https://doi.org/10.1016/j.cjac.2023.100292",
+      "citation_count": 2,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:eQOLeE2rZwMC",
+      "doi": "10.1016/j.cjac.2023.100292"
     },
     {
       "id": "YsMSGLbcyi4C",
@@ -113,8 +129,10 @@
       "authors_html": "<strong>J Fu</strong>, L Wu, G Xi, J Tu",
       "venue": "Elsevier",
       "year": "2023",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:YsMSGLbcyi4C",
-      "citation_count": 1
+      "url": "https://doi.org/10.1016/b978-0-12-822548-6.00060-1",
+      "citation_count": 1,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:YsMSGLbcyi4C",
+      "doi": "10.1016/b978-0-12-822548-6.00060-1"
     },
     {
       "id": "UeHWp8X0CEIC",
@@ -123,8 +141,10 @@
       "authors_html": "<strong>J Fu</strong>, L Wu, G Hu, F Li, Q Ge, Z Lu, J Tu",
       "venue": "Analyst 147 (13), 3087-3095",
       "year": "2022",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:UeHWp8X0CEIC",
-      "citation_count": 4
+      "url": "https://doi.org/10.1039/d2an00567k",
+      "citation_count": 4,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:UeHWp8X0CEIC",
+      "doi": "10.1039/d2an00567k"
     },
     {
       "id": "u5HHmVD_uO8C",
@@ -133,8 +153,10 @@
       "authors_html": "<strong>J Fu</strong>, L Wu, Y Qiao, J Tu, Z Lu",
       "venue": "Micromachines 11 (3), 332",
       "year": "2020",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:u5HHmVD_uO8C",
-      "citation_count": 40
+      "url": "https://doi.org/10.3390/mi11030332",
+      "citation_count": 40,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:u5HHmVD_uO8C",
+      "doi": "10.3390/mi11030332"
     },
     {
       "id": "d1gkVwhDpl0C",
@@ -143,8 +165,10 @@
       "authors_html": "<strong>J Fu</strong>, Y Qiao, H Song, Z Xu, J Tu, L Ba, Z Lu",
       "venue": "Nanotechnology 30 (26), 26LT01",
       "year": "2019",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:d1gkVwhDpl0C",
-      "citation_count": 8
+      "url": "https://doi.org/10.1088/1361-6528/ab0cab",
+      "citation_count": 8,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:d1gkVwhDpl0C",
+      "doi": "10.1088/1361-6528/ab0cab"
     }
   ],
   "co_authored": [
@@ -155,8 +179,10 @@
       "authors_html": "J Luo, <strong>J Fu</strong>, Z Lu, J Tu",
       "venue": "Briefings in bioinformatics 26 (1), bbae719",
       "year": "2025",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:WF5omc3nYNoC",
-      "citation_count": 25
+      "url": "https://doi.org/10.1093/bib/bbae719",
+      "citation_count": 25,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:WF5omc3nYNoC",
+      "doi": "10.1093/bib/bbae719"
     },
     {
       "id": "roLk4NBRz8UC",
@@ -165,8 +191,10 @@
       "authors_html": "K Xiao, <strong>J Fu</strong>, R Zhang, J Tu",
       "venue": "Biomolecules 15 (11), 1632",
       "year": "2025",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:roLk4NBRz8UC",
-      "citation_count": 1
+      "url": "https://doi.org/10.3390/biom15111632",
+      "citation_count": 1,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:roLk4NBRz8UC",
+      "doi": "10.3390/biom15111632"
     },
     {
       "id": "_FxGoFyzp5QC",
@@ -175,8 +203,10 @@
       "authors_html": "T Chen, G Hu, <strong>J Fu</strong>, J Tu",
       "venue": "Journal of Chemical Information and Modeling 65 (19), 10624-10633",
       "year": "2025",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:_FxGoFyzp5QC",
-      "citation_count": 0
+      "url": "https://doi.org/10.1021/acs.jcim.5c01626",
+      "citation_count": 0,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:_FxGoFyzp5QC",
+      "doi": "10.1021/acs.jcim.5c01626"
     },
     {
       "id": "IjCSPb-OGe4C",
@@ -185,8 +215,10 @@
       "authors_html": "H Yan, G Xi, H Meng, <strong>J Fu</strong>, G Hu, Z Lu, J Tu",
       "venue": "The Journal of Physical Chemistry B 126 (45), 9261-9270",
       "year": "2022",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:IjCSPb-OGe4C",
-      "citation_count": 2
+      "url": "https://doi.org/10.1021/acs.jpcb.2c06245",
+      "citation_count": 2,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:IjCSPb-OGe4C",
+      "doi": "10.1021/acs.jpcb.2c06245"
     },
     {
       "id": "9yKSN-GCB0IC",
@@ -195,8 +227,10 @@
       "authors_html": "J Tu, H Meng, LL Wu, G Xi, <strong>J Fu</strong>, Z Lu",
       "venue": "Langmuir 37 (33), 10177-10182",
       "year": "2021",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:9yKSN-GCB0IC",
-      "citation_count": 15
+      "url": "https://doi.org/10.1021/acs.langmuir.1c01597",
+      "citation_count": 15,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:9yKSN-GCB0IC",
+      "doi": "10.1021/acs.langmuir.1c01597"
     },
     {
       "id": "u-x6o8ySG0sC",
@@ -205,8 +239,10 @@
       "authors_html": "M Huang, F Yang, <strong>J Fu</strong>, P Xiao, J Tu, Z Lu",
       "venue": "Analytical Methods 12 (1), 46-53",
       "year": "2020",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:u-x6o8ySG0sC",
-      "citation_count": 9
+      "url": "https://doi.org/10.1039/c9ay01922g",
+      "citation_count": 9,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:u-x6o8ySG0sC",
+      "doi": "10.1039/c9ay01922g"
     },
     {
       "id": "Tyk-4Ss8FVUC",
@@ -215,8 +251,10 @@
       "authors_html": "G Hu, <strong>J Fu</strong>, Y Qiao, H Meng, Z Wang, J Tu, Z Lu",
       "venue": "Physical Chemistry Chemical Physics 22 (34), 19188-19194",
       "year": "2020",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:Tyk-4Ss8FVUC",
-      "citation_count": 7
+      "url": "https://doi.org/10.1039/d0cp02500c",
+      "citation_count": 7,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:Tyk-4Ss8FVUC",
+      "doi": "10.1039/d0cp02500c"
     },
     {
       "id": "W7OEmFMy1HYC",
@@ -225,8 +263,10 @@
       "authors_html": "Y Qiao, <strong>J Fu</strong>, F Yang, M Duan, M Huang, J Tu, Z Lu",
       "venue": "RSC advances 8 (60), 34343-34349",
       "year": "2018",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:W7OEmFMy1HYC",
-      "citation_count": 15
+      "url": "https://doi.org/10.1039/c8ra06022c",
+      "citation_count": 15,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:W7OEmFMy1HYC",
+      "doi": "10.1039/c8ra06022c"
     },
     {
       "id": "2osOgNQ5qMEC",
@@ -235,8 +275,10 @@
       "authors_html": "J Li, N Lu, Y Tao, M Duan, Y Qiao, Y Xu, Q Ge, C Bi, <strong>J Fu</strong>, J Tu, Z Lu",
       "venue": "Nanoscale 10 (37), 17933-17941",
       "year": "2018",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:2osOgNQ5qMEC",
-      "citation_count": 13
+      "url": "https://doi.org/10.1039/c8nr04917c",
+      "citation_count": 13,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:2osOgNQ5qMEC",
+      "doi": "10.1039/c8nr04917c"
     },
     {
       "id": "Y0pCki6q_DkC",
@@ -245,8 +287,10 @@
       "authors_html": "J Tu, Y Qiao, H Feng, J Li, <strong>J Fu</strong>, F Liang, Z Lu",
       "venue": "RSC Advances 7 (50), 31603-31609",
       "year": "2017",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:Y0pCki6q_DkC",
-      "citation_count": 22
+      "url": "https://doi.org/10.1039/c7ra03899b",
+      "citation_count": 22,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:Y0pCki6q_DkC",
+      "doi": "10.1039/c7ra03899b"
     }
   ]
 }
