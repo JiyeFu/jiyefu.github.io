@@ -1,0 +1,19 @@
+{% assign publications = include.publications %}
+{% if publications and publications.size > 0 %}
+<ol class="publication-auto-list">
+  {% for publication in publications %}
+  <li class="publication-auto-list__item">
+    <span class="publication-auto-list__authors">{{ publication.authors_html }}</span>.
+    {% if publication.url and publication.url != "" %}
+    <a href="{{ publication.url }}">{{ publication.title }}</a>,
+    {% else %}
+    {{ publication.title }},
+    {% endif %}
+    <strong>{{ publication.venue }}</strong>{% if publication.year and publication.year != "" %}, {{ publication.year }}{% endif %}.
+    <span class="show_paper_citations" data="{{ publication.id }}"></span>
+  </li>
+  {% endfor %}
+</ol>
+{% else %}
+<p class="publication-auto-list__empty">{{ include.empty_message }}</p>
+{% endif %}
