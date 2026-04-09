@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Jiye Fu"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/profile-avatar-icon.png"
   bio              : "Postdoctoral Scholar in Computational Biology at The Ohio State University"
   location         : "Columbus, OH, USA"
   employer         :
