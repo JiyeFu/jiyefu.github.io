@@ -149,8 +149,8 @@
     {
       "id": "u5HHmVD_uO8C",
       "title": "Microfluidic systems applied in solid-state nanopore sensors",
-      "authors": "J Fu, L Wu, Y Qiao, J Tu, Z Lu",
-      "authors_html": "<strong>J Fu</strong>, L Wu, Y Qiao, J Tu, Z Lu",
+      "authors": "J Fu, L Wu, Y Qiao, J Tu*, Z Lu*",
+      "authors_html": "<strong>J Fu</strong>, L Wu, Y Qiao, J Tu*, Z Lu*",
       "venue": "Micromachines 11 (3), 332",
       "year": "2020",
       "url": "https://doi.org/10.3390/mi11030332",
