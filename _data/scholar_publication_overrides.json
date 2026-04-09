@@ -7,5 +7,31 @@
   ],
   "corresponding_author_ids": [],
   "link_overrides": {},
-  "author_role_overrides": {}
+  "author_role_overrides": {
+    "zYLM7Y9cAGgC": {
+      "co_first_authors": ["J Fu", "S He", "Y Yang"],
+      "corresponding_authors": ["J Tu"]
+    },
+    "WF5omc3nYNoC": {
+      "corresponding_authors": ["J Tu", "Z Lu"]
+    },
+    "UeHWp8X0CEIC": {
+      "corresponding_authors": ["J Tu", "Z Lu"]
+    },
+    "u-x6o8ySG0sC": {
+      "corresponding_authors": ["J Tu"]
+    },
+    "Tyk-4Ss8FVUC": {
+      "corresponding_authors": ["J Tu", "Z Lu"]
+    },
+    "W7OEmFMy1HYC": {
+      "corresponding_authors": ["J Tu", "Z Lu"]
+    },
+    "2osOgNQ5qMEC": {
+      "corresponding_authors": ["J Tu", "Z Lu"]
+    },
+    "Y0pCki6q_DkC": {
+      "corresponding_authors": ["Z Lu"]
+    }
+  }
 }
