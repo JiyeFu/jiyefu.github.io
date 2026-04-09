@@ -165,6 +165,20 @@ body:before {
     z-index: 50;
 }
 
+@include breakpoint(max-width $medium) {
+    .greedy-nav .hidden-links {
+        position: fixed;
+        top: calc(env(safe-area-inset-top, 0px) + 4.6rem);
+        left: 0.85rem;
+        right: 0.85rem;
+        margin-top: 0;
+        max-height: calc(100vh - 6rem);
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        z-index: 999;
+    }
+}
+
 .page__content {
     color: var(--ink);
 
