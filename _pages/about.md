@@ -53,6 +53,8 @@ My research focuses on the intersection of Bioinformatics, Machine Learning, and
 
 ### Full Publication List
 
+<p class="publication-role-note">Co-first authors are indicated by <strong>†</strong>, and corresponding authors are indicated by <strong>*</strong>.</p>
+
 <div class="publication-subsection">
   <h3>First-authored and Corresponding-authored</h3>
   {% include scholar_publication_list.html

@@ -49,6 +49,24 @@ def emphasize_author_names(author_string, name_variants):
     return ", ".join(highlighted_parts)
 
 
+def apply_author_role_markers(author_string, author_role_metadata=None):
+    author_role_metadata = author_role_metadata or {}
+    co_first = {normalize_name(name) for name in author_role_metadata.get("co_first_authors", [])}
+    corresponding = {normalize_name(name) for name in author_role_metadata.get("corresponding_authors", [])}
+
+    marked_parts = []
+    for part in author_string.split(","):
+        author_name = part.strip()
+        normalized_author = normalize_name(author_name)
+        suffix = ""
+        if normalized_author in co_first:
+            suffix += "†"
+        if normalized_author in corresponding:
+            suffix += "*"
+        marked_parts.append(f"{author_name}{suffix}")
+    return ", ".join(marked_parts)
+
+
 def extract_venue(bib):
     for key in ("journal", "conference", "booktitle", "publisher", "citation"):
         value = bib.get(key)
@@ -206,6 +224,7 @@ def build_publication_data(author, scholar_id, overrides):
     )
     corresponding_ids = set(overrides.get("corresponding_author_ids", []))
     link_overrides = overrides.get("link_overrides", {})
+    author_role_overrides = overrides.get("author_role_overrides", {})
 
     grouped = {
         "updated": datetime.now(timezone.utc).isoformat(),
@@ -227,11 +246,15 @@ def build_publication_data(author, scholar_id, overrides):
             link_overrides=link_overrides,
         )
         formatted_authors = format_authors(authors, crossref_item)
+        marked_authors = apply_author_role_markers(
+            formatted_authors,
+            author_role_overrides.get(pub_id, {}),
+        )
         entry = {
             "id": pub_id,
             "title": bib.get("title", "").strip(),
-            "authors": formatted_authors,
-            "authors_html": emphasize_author_names(formatted_authors, name_variants),
+            "authors": marked_authors,
+            "authors_html": emphasize_author_names(marked_authors, name_variants),
             "venue": format_venue(bib, crossref_item),
             "year": extract_year(bib),
             "url": resolved_url,
