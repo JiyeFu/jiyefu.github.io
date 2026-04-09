@@ -187,8 +187,8 @@
     {
       "id": "roLk4NBRz8UC",
       "title": "Sequence Determinants of G-Quadruplex Thermostability: Aligning Evidence from High-Precision Biophysics and High-Throughput Genomics",
-      "authors": "K Xiao, J Fu, R Zhang, J Tu",
-      "authors_html": "K Xiao, <strong>J Fu</strong>, R Zhang, J Tu",
+      "authors": "K Xiao, J Fu, R Zhang, J Tu*",
+      "authors_html": "K Xiao, <strong>J Fu</strong>, R Zhang, J Tu*",
       "venue": "Biomolecules 15 (11), 1632",
       "year": "2025",
       "url": "https://doi.org/10.3390/biom15111632",
@@ -199,8 +199,8 @@
     {
       "id": "_FxGoFyzp5QC",
       "title": "Structural Basis of PAM-Induced Conformational Changes in SpCas9: A Molecular Dynamics Study",
-      "authors": "T Chen, G Hu, J Fu, J Tu",
-      "authors_html": "T Chen, G Hu, <strong>J Fu</strong>, J Tu",
+      "authors": "T Chen, G Hu, J Fu, J Tu*",
+      "authors_html": "T Chen, G Hu, <strong>J Fu</strong>, J Tu*",
       "venue": "Journal of Chemical Information and Modeling 65 (19), 10624-10633",
       "year": "2025",
       "url": "https://doi.org/10.1021/acs.jcim.5c01626",
@@ -211,8 +211,8 @@
     {
       "id": "IjCSPb-OGe4C",
       "title": "The mechanism of overflow amplitude in nanopore experiments and its application in molecule detection",
-      "authors": "H Yan, G Xi, H Meng, J Fu, G Hu, Z Lu, J Tu",
-      "authors_html": "H Yan, G Xi, H Meng, <strong>J Fu</strong>, G Hu, Z Lu, J Tu",
+      "authors": "H Yan, G Xi, H Meng, J Fu, G Hu, Z Lu*, J Tu*",
+      "authors_html": "H Yan, G Xi, H Meng, <strong>J Fu</strong>, G Hu, Z Lu*, J Tu*",
       "venue": "The Journal of Physical Chemistry B 126 (45), 9261-9270",
       "year": "2022",
       "url": "https://doi.org/10.1021/acs.jpcb.2c06245",
@@ -223,8 +223,8 @@
     {
       "id": "9yKSN-GCB0IC",
       "title": "EasyNanopore: A ready-to-use processing software for translocation events in nanopore translocation experiments",
-      "authors": "J Tu, H Meng, L Wu, G Xi, J Fu, Z Lu",
-      "authors_html": "J Tu, H Meng, L Wu, G Xi, <strong>J Fu</strong>, Z Lu",
+      "authors": "J Tu*, H Meng, L Wu, G Xi, J Fu, Z Lu*",
+      "authors_html": "J Tu*, H Meng, L Wu, G Xi, <strong>J Fu</strong>, Z Lu*",
       "venue": "Langmuir 37 (33), 10177-10182",
       "year": "2021",
       "url": "https://doi.org/10.1021/acs.langmuir.1c01597",
