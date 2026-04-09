@@ -147,10 +147,22 @@ body:before {
     z-index: 0;
 }
 
-#main,
-.masthead {
+#main {
     position: relative;
     z-index: 1;
+}
+
+.masthead {
+    position: relative;
+    z-index: 40;
+}
+
+.greedy-nav {
+    z-index: 41;
+}
+
+.greedy-nav .hidden-links {
+    z-index: 50;
 }
 
 .page__content {
