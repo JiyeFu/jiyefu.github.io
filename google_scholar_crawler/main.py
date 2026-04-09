@@ -105,24 +105,35 @@ def format_authors(authors, crossref_item=None):
     return authors
 
 
-def format_venue(bib, crossref_item=None):
+def build_venue_parts(bib, crossref_item=None):
     if not crossref_item:
-        return extract_venue(bib)
+        venue = extract_venue(bib)
+        if "," in venue:
+            journal_title, venue_details = venue.split(",", 1)
+            return journal_title.strip(), venue_details.strip()
+        return venue, ""
 
     container_titles = crossref_item.get("container-title", [])
-    journal = container_titles[0].strip() if container_titles else ""
+    journal_title = container_titles[0].strip() if container_titles else extract_venue(bib)
     volume = str(crossref_item.get("volume", "")).strip()
     issue = str(crossref_item.get("issue", "")).strip()
     page = str(crossref_item.get("page", "")).strip() or str(crossref_item.get("article-number", "")).strip()
 
-    venue = journal or extract_venue(bib)
+    venue_details = ""
     if volume:
-        venue += f" {volume}"
+        venue_details += volume
     if issue:
-        venue += f" ({issue})"
+        venue_details += f" ({issue})" if venue_details else f"({issue})"
     if page:
-        venue += f", {page}"
-    return venue.strip()
+        venue_details += f", {page}" if venue_details else page
+    return journal_title, venue_details
+
+
+def format_venue(bib, crossref_item=None):
+    journal_title, venue_details = build_venue_parts(bib, crossref_item)
+    if venue_details:
+        return f"{journal_title} {venue_details}".strip()
+    return journal_title.strip()
 
 
 def extract_year(bib):
@@ -245,6 +256,7 @@ def build_publication_data(author, scholar_id, overrides):
             year=extract_year(bib),
             link_overrides=link_overrides,
         )
+        journal_title, venue_details = build_venue_parts(bib, crossref_item)
         formatted_authors = format_authors(authors, crossref_item)
         marked_authors = apply_author_role_markers(
             formatted_authors,
@@ -255,6 +267,8 @@ def build_publication_data(author, scholar_id, overrides):
             "title": bib.get("title", "").strip(),
             "authors": marked_authors,
             "authors_html": emphasize_author_names(marked_authors, name_variants),
+            "journal_title": journal_title,
+            "venue_details": venue_details,
             "venue": format_venue(bib, crossref_item),
             "year": extract_year(bib),
             "url": resolved_url,

@@ -5,7 +5,7 @@
   <article class="featured-paper">
     <div class="featured-paper__meta">{{ publication.article_type | capitalize }} • Rank {{ publication.journal_rank }}</div>
     <h3 class="featured-paper__title"><a href="{{ publication.url }}">{{ publication.title }}</a></h3>
-    <p class="featured-paper__venue"><strong>{{ publication.venue }}</strong>{% if publication.year and publication.year != "" %}, {{ publication.year }}{% endif %}</p>
+    <p class="featured-paper__venue"><strong><em>{{ publication.journal_title | default: publication.venue }}</em></strong>{% if publication.venue_details and publication.venue_details != "" %} {{ publication.venue_details }}{% endif %}{% if publication.year and publication.year != "" %}, <strong>{{ publication.year }}</strong>{% endif %}</p>
     {% if publication.tags and publication.tags.size > 0 %}
     <div class="featured-paper__tags">
       {% for tag in publication.tags %}

@@ -9,7 +9,7 @@
     {% else %}
     {{ publication.title }},
     {% endif %}
-    <strong>{{ publication.venue }}</strong>{% if publication.year and publication.year != "" %}, {{ publication.year }}{% endif %}.
+    <strong><em>{{ publication.journal_title | default: publication.venue }}</em></strong>{% if publication.venue_details and publication.venue_details != "" %} {{ publication.venue_details }}{% endif %}{% if publication.year and publication.year != "" %}, <strong>{{ publication.year }}</strong>{% endif %}.
     <span class="show_paper_citations" data="{{ publication.id }}"></span>
   </li>
   {% endfor %}

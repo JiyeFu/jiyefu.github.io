@@ -20,7 +20,9 @@
         "Metadata Resource"
       ],
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:zYLM7Y9cAGgC",
-      "doi": "10.1093/nar/gkae971"
+      "doi": "10.1093/nar/gkae971",
+      "journal_title": "Nucleic Acids Research",
+      "venue_details": "53 (D1), D1029-D1038"
     },
     {
       "id": "ufrVoPGSRksC",
@@ -39,7 +41,9 @@
         "Sequence Context"
       ],
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:ufrVoPGSRksC",
-      "doi": "10.1016/j.biochi.2025.09.006"
+      "doi": "10.1016/j.biochi.2025.09.006",
+      "journal_title": "Biochimie",
+      "venue_details": "239, 236-243"
     },
     {
       "id": "LkGwnXOMwfcC",
@@ -58,7 +62,9 @@
         "Genome Regulation"
       ],
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:LkGwnXOMwfcC",
-      "doi": "10.3390/ijms262010025"
+      "doi": "10.3390/ijms262010025",
+      "journal_title": "International Journal of Molecular Sciences",
+      "venue_details": "26 (20), 10025"
     }
   ],
   "first_or_corresponding": [
@@ -72,7 +78,9 @@
       "url": "https://doi.org/10.1093/nar/gkae971",
       "citation_count": 5,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:zYLM7Y9cAGgC",
-      "doi": "10.1093/nar/gkae971"
+      "doi": "10.1093/nar/gkae971",
+      "journal_title": "Nucleic Acids Research",
+      "venue_details": "53 (D1), D1029-D1038"
     },
     {
       "id": "ufrVoPGSRksC",
@@ -84,7 +92,9 @@
       "url": "https://doi.org/10.1016/j.biochi.2025.09.006",
       "citation_count": 2,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:ufrVoPGSRksC",
-      "doi": "10.1016/j.biochi.2025.09.006"
+      "doi": "10.1016/j.biochi.2025.09.006",
+      "journal_title": "Biochimie",
+      "venue_details": "239, 236-243"
     },
     {
       "id": "LkGwnXOMwfcC",
@@ -96,7 +106,9 @@
       "url": "https://doi.org/10.3390/ijms262010025",
       "citation_count": 0,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:LkGwnXOMwfcC",
-      "doi": "10.3390/ijms262010025"
+      "doi": "10.3390/ijms262010025",
+      "journal_title": "International Journal of Molecular Sciences",
+      "venue_details": "26 (20), 10025"
     },
     {
       "id": "qjMakFHDy7sC",
@@ -108,7 +120,9 @@
       "url": "https://doi.org/10.1016/j.xgen.2023.100472",
       "citation_count": 0,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:qjMakFHDy7sC",
-      "doi": "10.1016/j.xgen.2023.100472"
+      "doi": "10.1016/j.xgen.2023.100472",
+      "journal_title": "Cell Genomics",
+      "venue_details": "4 (1), 100472"
     },
     {
       "id": "eQOLeE2rZwMC",
@@ -120,7 +134,9 @@
       "url": "https://doi.org/10.1016/j.cjac.2023.100292",
       "citation_count": 2,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:eQOLeE2rZwMC",
-      "doi": "10.1016/j.cjac.2023.100292"
+      "doi": "10.1016/j.cjac.2023.100292",
+      "journal_title": "Chinese Journal of Analytical Chemistry",
+      "venue_details": "51 (8), 100292"
     },
     {
       "id": "YsMSGLbcyi4C",
@@ -132,7 +148,9 @@
       "url": "https://doi.org/10.1016/b978-0-12-822548-6.00060-1",
       "citation_count": 1,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:YsMSGLbcyi4C",
-      "doi": "10.1016/b978-0-12-822548-6.00060-1"
+      "doi": "10.1016/b978-0-12-822548-6.00060-1",
+      "journal_title": "Encyclopedia of Sensors and Biosensors",
+      "venue_details": "581-597"
     },
     {
       "id": "UeHWp8X0CEIC",
@@ -144,7 +162,9 @@
       "url": "https://doi.org/10.1039/d2an00567k",
       "citation_count": 4,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:UeHWp8X0CEIC",
-      "doi": "10.1039/d2an00567k"
+      "doi": "10.1039/d2an00567k",
+      "journal_title": "The Analyst",
+      "venue_details": "147 (13), 3087-3095"
     },
     {
       "id": "u5HHmVD_uO8C",
@@ -156,7 +176,9 @@
       "url": "https://doi.org/10.3390/mi11030332",
       "citation_count": 40,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:u5HHmVD_uO8C",
-      "doi": "10.3390/mi11030332"
+      "doi": "10.3390/mi11030332",
+      "journal_title": "Micromachines",
+      "venue_details": "11 (3), 332"
     },
     {
       "id": "d1gkVwhDpl0C",
@@ -168,7 +190,9 @@
       "url": "https://doi.org/10.1088/1361-6528/ab0cab",
       "citation_count": 8,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:d1gkVwhDpl0C",
-      "doi": "10.1088/1361-6528/ab0cab"
+      "doi": "10.1088/1361-6528/ab0cab",
+      "journal_title": "Nanotechnology",
+      "venue_details": "30 (26), 26LT01"
     }
   ],
   "co_authored": [
@@ -182,7 +206,9 @@
       "url": "https://doi.org/10.1093/bib/bbae719",
       "citation_count": 25,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:WF5omc3nYNoC",
-      "doi": "10.1093/bib/bbae719"
+      "doi": "10.1093/bib/bbae719",
+      "journal_title": "Briefings in Bioinformatics",
+      "venue_details": "26 (1), bbae719"
     },
     {
       "id": "roLk4NBRz8UC",
@@ -194,7 +220,9 @@
       "url": "https://doi.org/10.3390/biom15111632",
       "citation_count": 1,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:roLk4NBRz8UC",
-      "doi": "10.3390/biom15111632"
+      "doi": "10.3390/biom15111632",
+      "journal_title": "Biomolecules",
+      "venue_details": "15 (11), 1632"
     },
     {
       "id": "_FxGoFyzp5QC",
@@ -206,7 +234,9 @@
       "url": "https://doi.org/10.1021/acs.jcim.5c01626",
       "citation_count": 0,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:_FxGoFyzp5QC",
-      "doi": "10.1021/acs.jcim.5c01626"
+      "doi": "10.1021/acs.jcim.5c01626",
+      "journal_title": "Journal of Chemical Information and Modeling",
+      "venue_details": "65 (19), 10624-10633"
     },
     {
       "id": "IjCSPb-OGe4C",
@@ -218,7 +248,9 @@
       "url": "https://doi.org/10.1021/acs.jpcb.2c06245",
       "citation_count": 2,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:IjCSPb-OGe4C",
-      "doi": "10.1021/acs.jpcb.2c06245"
+      "doi": "10.1021/acs.jpcb.2c06245",
+      "journal_title": "The Journal of Physical Chemistry B",
+      "venue_details": "126 (45), 9261-9270"
     },
     {
       "id": "9yKSN-GCB0IC",
@@ -230,7 +262,9 @@
       "url": "https://doi.org/10.1021/acs.langmuir.1c01597",
       "citation_count": 15,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:9yKSN-GCB0IC",
-      "doi": "10.1021/acs.langmuir.1c01597"
+      "doi": "10.1021/acs.langmuir.1c01597",
+      "journal_title": "Langmuir",
+      "venue_details": "37 (33), 10177-10182"
     },
     {
       "id": "u-x6o8ySG0sC",
@@ -242,7 +276,9 @@
       "url": "https://doi.org/10.1039/c9ay01922g",
       "citation_count": 9,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:u-x6o8ySG0sC",
-      "doi": "10.1039/c9ay01922g"
+      "doi": "10.1039/c9ay01922g",
+      "journal_title": "Analytical Methods",
+      "venue_details": "12 (1), 46-53"
     },
     {
       "id": "Tyk-4Ss8FVUC",
@@ -254,7 +290,9 @@
       "url": "https://doi.org/10.1039/d0cp02500c",
       "citation_count": 7,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:Tyk-4Ss8FVUC",
-      "doi": "10.1039/d0cp02500c"
+      "doi": "10.1039/d0cp02500c",
+      "journal_title": "Physical Chemistry Chemical Physics",
+      "venue_details": "22 (34), 19188-19194"
     },
     {
       "id": "W7OEmFMy1HYC",
@@ -266,7 +304,9 @@
       "url": "https://doi.org/10.1039/c8ra06022c",
       "citation_count": 15,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:W7OEmFMy1HYC",
-      "doi": "10.1039/c8ra06022c"
+      "doi": "10.1039/c8ra06022c",
+      "journal_title": "RSC Advances",
+      "venue_details": "8 (60), 34343-34349"
     },
     {
       "id": "2osOgNQ5qMEC",
@@ -278,7 +318,9 @@
       "url": "https://doi.org/10.1039/c8nr04917c",
       "citation_count": 13,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:2osOgNQ5qMEC",
-      "doi": "10.1039/c8nr04917c"
+      "doi": "10.1039/c8nr04917c",
+      "journal_title": "Nanoscale",
+      "venue_details": "10 (37), 17933-17941"
     },
     {
       "id": "Y0pCki6q_DkC",
@@ -290,7 +332,9 @@
       "url": "https://doi.org/10.1039/c7ra03899b",
       "citation_count": 22,
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:Y0pCki6q_DkC",
-      "doi": "10.1039/c7ra03899b"
+      "doi": "10.1039/c7ra03899b",
+      "journal_title": "RSC Advances",
+      "venue_details": "7 (50), 31603-31609"
     }
   ]
 }
