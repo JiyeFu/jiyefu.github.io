@@ -9,7 +9,7 @@
 title                    : "Jiye Fu"
 description              : "Postdoctoral scholar in computational biology at The Ohio State University working on bioinformatics, machine learning, single-cell genomics, and genomic structure analysis."
 repository               : "JiyeFu/jiyefu.github.io"
-google_scholar_stats_use_cdn : true
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
