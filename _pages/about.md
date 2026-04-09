@@ -28,7 +28,7 @@ My research focuses on the intersection of Bioinformatics, Machine Learning, and
 <span class='anchor' id='news'></span>
 # 🔥 News
 - *2026.02.23*: &nbsp;Excited to join the [BMBL](https://u.osu.edu/bmbl/) and [MaTRIX](https://u.osu.edu/matrix/) teams at OSU.
-- *2025.05.07*: &nbsp;Successfully passed the Ph.D. defense. I am deeply grateful to Prof. [Zuhong Lu](https://scholar.google.com/scholar?q=author%3A%22Zuhong+Lu%22) and Prof. [Jing Tu](https://scholar.google.com/scholar?q=author%3A%22Jing+Tu%22) for their guidance as my supervisors, to Prof. [Xiaowo Wang](https://scholar.google.com/scholar?q=author%3A%22Xiaowo+Wang%22) for serving as the defense chair, and to all my lab partners for their support. 🎆
+- *2025.05.07*: &nbsp;Successfully passed the Ph.D. defense. I am deeply grateful to Prof. [Zuhong Lu](https://scholar.google.com/citations?user=r0KzDh8AAAAJ), Prof. [Jing Tu](https://scholar.google.com/citations?user=YneyKOYAAAAJ), and Prof. [Xiaowo Wang](https://scholar.google.com/citations?user=dtB8cJYAAAAJ) for their guidance and support throughout this journey, and to all my lab partners for their encouragement and collaboration. 🎆
 </div>
 
 <div class="section-card section-card--experience" data-label="Current path" markdown="1">
