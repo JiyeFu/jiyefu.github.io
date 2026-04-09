@@ -12,6 +12,7 @@ import urllib.request
 REPO_ROOT = Path(__file__).resolve().parents[1]
 OVERRIDES_PATH = REPO_ROOT / "_data" / "scholar_publication_overrides.json"
 FEATURE_METADATA_PATH = REPO_ROOT / "_data" / "publication_feature_metadata.json"
+CROSSREF_CACHE = {}
 
 
 def load_overrides():
@@ -37,11 +38,15 @@ def normalize_title(value):
 
 
 def emphasize_author_names(author_string, name_variants):
-    highlighted = author_string
-    for variant in sorted(name_variants, key=len, reverse=True):
-        pattern = re.compile(rf"(?<!\w){re.escape(variant)}(?!\w)")
-        highlighted = pattern.sub(f"<strong>{variant}</strong>", highlighted)
-    return highlighted
+    normalized_variants = {normalize_name(variant) for variant in name_variants}
+    highlighted_parts = []
+    for part in author_string.split(","):
+        author_name = part.strip()
+        if normalize_name(author_name) in normalized_variants:
+            highlighted_parts.append(f"<strong>{author_name}</strong>")
+        else:
+            highlighted_parts.append(author_name)
+    return ", ".join(highlighted_parts)
 
 
 def extract_venue(bib):
@@ -50,6 +55,56 @@ def extract_venue(bib):
         if value:
             return value.strip()
     return "Publication venue unavailable"
+
+
+def title_case_family_name(value):
+    return "-".join(segment.capitalize() for segment in value.split("-") if segment)
+
+
+def initials_from_given_name(value):
+    parts = re.split(r"[\s\-]+", value.strip())
+    return "".join(part[0].upper() for part in parts if part)
+
+
+def format_crossref_author_name(author):
+    family = title_case_family_name(author.get("family", "").strip())
+    given = author.get("given", "").strip()
+    initials = initials_from_given_name(given)
+    if initials and family:
+        return f"{initials} {family}"
+    return family or given
+
+
+def format_authors(authors, crossref_item=None):
+    if crossref_item and crossref_item.get("author"):
+        formatted = [
+            format_crossref_author_name(author)
+            for author in crossref_item.get("author", [])
+            if format_crossref_author_name(author)
+        ]
+        if formatted:
+            return ", ".join(formatted)
+    return authors
+
+
+def format_venue(bib, crossref_item=None):
+    if not crossref_item:
+        return extract_venue(bib)
+
+    container_titles = crossref_item.get("container-title", [])
+    journal = container_titles[0].strip() if container_titles else ""
+    volume = str(crossref_item.get("volume", "")).strip()
+    issue = str(crossref_item.get("issue", "")).strip()
+    page = str(crossref_item.get("page", "")).strip() or str(crossref_item.get("article-number", "")).strip()
+
+    venue = journal or extract_venue(bib)
+    if volume:
+        venue += f" {volume}"
+    if issue:
+        venue += f" ({issue})"
+    if page:
+        venue += f", {page}"
+    return venue.strip()
 
 
 def extract_year(bib):
@@ -68,6 +123,10 @@ def scholar_publication_url(scholar_id, pub):
 
 
 def crossref_lookup(title, year="", rows=5):
+    cache_key = (title, str(year), rows)
+    if cache_key in CROSSREF_CACHE:
+        return CROSSREF_CACHE[cache_key]
+
     params = urllib.parse.urlencode(
         {
             "query.title": title,
@@ -83,7 +142,9 @@ def crossref_lookup(title, year="", rows=5):
     )
     with urllib.request.urlopen(request, timeout=20) as response:
         payload = json.load(response)
-    return payload.get("message", {}).get("items", [])
+    items = payload.get("message", {}).get("items", [])
+    CROSSREF_CACHE[cache_key] = items
+    return items
 
 
 def crossref_item_year(item):
@@ -97,7 +158,7 @@ def crossref_item_year(item):
 def resolve_publication_link(title, scholar_url, year="", link_overrides=None):
     link_overrides = link_overrides or {}
     if title in link_overrides:
-        return link_overrides[title], ""
+        return link_overrides[title], "", None
 
     normalized_title = normalize_title(title)
 
@@ -123,13 +184,13 @@ def resolve_publication_link(title, scholar_url, year="", link_overrides=None):
         if best_item and best_score >= 0.92:
             doi = best_item.get("DOI", "")
             if doi:
-                return f"https://doi.org/{doi}", doi
+                return f"https://doi.org/{doi}", doi, best_item
             if best_item.get("URL"):
-                return best_item["URL"], ""
+                return best_item["URL"], "", best_item
     except Exception:
         pass
 
-    return scholar_url, ""
+    return scholar_url, "", None
 
 
 def is_first_authored(author_string, name_variants):
@@ -159,18 +220,19 @@ def build_publication_data(author, scholar_id, overrides):
         authors = bib.get("author", "").strip()
         pub_id = pub.get("author_pub_id", "")
         scholar_url = scholar_publication_url(scholar_id, pub)
-        resolved_url, doi = resolve_publication_link(
+        resolved_url, doi, crossref_item = resolve_publication_link(
             bib.get("title", "").strip(),
             scholar_url,
             year=extract_year(bib),
             link_overrides=link_overrides,
         )
+        formatted_authors = format_authors(authors, crossref_item)
         entry = {
             "id": pub_id,
             "title": bib.get("title", "").strip(),
-            "authors": authors,
-            "authors_html": emphasize_author_names(authors, name_variants),
-            "venue": extract_venue(bib),
+            "authors": formatted_authors,
+            "authors_html": emphasize_author_names(formatted_authors, name_variants),
+            "venue": format_venue(bib, crossref_item),
             "year": extract_year(bib),
             "url": resolved_url,
             "doi": doi,
