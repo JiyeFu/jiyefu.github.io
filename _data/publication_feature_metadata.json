@@ -1,0 +1,55 @@
+{
+  "featured_count": 3,
+  "publications": {
+    "zYLM7Y9cAGgC": {
+      "article_type": "database",
+      "journal_rank": 1,
+      "tags": ["Single-Cell Genomics", "Database", "Metadata Resource"]
+    },
+    "ufrVoPGSRksC": {
+      "article_type": "research",
+      "journal_rank": 2,
+      "tags": ["Human Genome", "G4 Stability", "Sequence Context"]
+    },
+    "LkGwnXOMwfcC": {
+      "article_type": "research",
+      "journal_rank": 3,
+      "tags": ["Bacterial Genomes", "G-Quadruplexes", "Genome Regulation"]
+    },
+    "WF5omc3nYNoC": {
+      "article_type": "review",
+      "journal_rank": 4,
+      "tags": ["Spatial Transcriptomics", "Deep Learning", "Multi-Modal Integration"]
+    },
+    "qjMakFHDy7sC": {
+      "article_type": "perspective",
+      "journal_rank": 5,
+      "tags": ["Embryology", "Extracellular RNA"]
+    },
+    "eQOLeE2rZwMC": {
+      "article_type": "research",
+      "journal_rank": 6,
+      "tags": ["microRNA", "Amplification", "G-Quadruplex"]
+    },
+    "YsMSGLbcyi4C": {
+      "article_type": "other",
+      "journal_rank": 7,
+      "tags": ["Nanopore", "Book Chapter"]
+    },
+    "UeHWp8X0CEIC": {
+      "article_type": "research",
+      "journal_rank": 8,
+      "tags": ["Nanopore", "DNA Polymerase", "Conformation"]
+    },
+    "u5HHmVD_uO8C": {
+      "article_type": "review",
+      "journal_rank": 9,
+      "tags": ["Microfluidics", "Nanopore Sensors"]
+    },
+    "d1gkVwhDpl0C": {
+      "article_type": "letter",
+      "journal_rank": 10,
+      "tags": ["Graphene", "Transfer", "Nanotechnology"]
+    }
+  }
+}

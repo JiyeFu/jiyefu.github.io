@@ -2,6 +2,59 @@
   "updated": "2026-04-09T00:00:00Z",
   "source": "Google Scholar",
   "scholar_id": "x53ad20AAAAJ",
+  "featured_publications": [
+    {
+      "id": "zYLM7Y9cAGgC",
+      "title": "HSCGD: a comprehensive database of single-cell whole-genome data and metadata",
+      "authors": "J Fu, S He, Y Yang, Z Chen, Y Qiao, N Lu, Z Lu, J Tu",
+      "authors_html": "<strong>J Fu</strong>, S He, Y Yang, Z Chen, Y Qiao, N Lu, Z Lu, J Tu",
+      "venue": "Nucleic Acids Research 53 (D1), D1029-D1038",
+      "year": "2025",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:zYLM7Y9cAGgC",
+      "citation_count": 5,
+      "article_type": "database",
+      "journal_rank": 1,
+      "tags": [
+        "Single-Cell Genomics",
+        "Database",
+        "Metadata Resource"
+      ]
+    },
+    {
+      "id": "ufrVoPGSRksC",
+      "title": "Decoding G-Quadruplex Stability: The Role of Loop Architecture and Sequence Context in the Human Genome",
+      "authors": "J Fu, T Chen, N Lu, X Pan, J Tu",
+      "authors_html": "<strong>J Fu</strong>, T Chen, N Lu, X Pan, J Tu",
+      "venue": "Biochimie",
+      "year": "2025",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:ufrVoPGSRksC",
+      "citation_count": 2,
+      "article_type": "research",
+      "journal_rank": 2,
+      "tags": [
+        "Human Genome",
+        "G4 Stability",
+        "Sequence Context"
+      ]
+    },
+    {
+      "id": "LkGwnXOMwfcC",
+      "title": "Non-Random Distribution of G-Quadruplex Structures Reveals Regulatory and Ecological Adaptations in Bacterial Genomes",
+      "authors": "J Fu, K Xiao, Y He, J Tu",
+      "authors_html": "<strong>J Fu</strong>, K Xiao, Y He, J Tu",
+      "venue": "International Journal of Molecular Sciences 26 (20), 10025",
+      "year": "2025",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x53ad20AAAAJ&citation_for_view=x53ad20AAAAJ:LkGwnXOMwfcC",
+      "citation_count": 0,
+      "article_type": "research",
+      "journal_rank": 3,
+      "tags": [
+        "Bacterial Genomes",
+        "G-Quadruplexes",
+        "Genome Regulation"
+      ]
+    }
+  ],
   "first_or_corresponding": [
     {
       "id": "zYLM7Y9cAGgC",

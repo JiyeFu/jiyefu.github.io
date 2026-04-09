@@ -1,0 +1,19 @@
+{% assign publications = include.publications %}
+{% if publications and publications.size > 0 %}
+<div class="featured-publications">
+  {% for publication in publications %}
+  <article class="featured-paper">
+    <div class="featured-paper__meta">{{ publication.article_type | capitalize }} • Rank {{ publication.journal_rank }}</div>
+    <h3 class="featured-paper__title"><a href="{{ publication.url }}">{{ publication.title }}</a></h3>
+    <p class="featured-paper__venue"><strong>{{ publication.venue }}</strong>{% if publication.year and publication.year != "" %}, {{ publication.year }}{% endif %}</p>
+    {% if publication.tags and publication.tags.size > 0 %}
+    <div class="featured-paper__tags">
+      {% for tag in publication.tags %}
+      <span>{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>
+{% endif %}

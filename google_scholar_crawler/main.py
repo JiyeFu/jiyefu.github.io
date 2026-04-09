@@ -8,6 +8,7 @@ import re
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 OVERRIDES_PATH = REPO_ROOT / "_data" / "scholar_publication_overrides.json"
+FEATURE_METADATA_PATH = REPO_ROOT / "_data" / "publication_feature_metadata.json"
 
 
 def load_overrides():
@@ -15,6 +16,13 @@ def load_overrides():
         with OVERRIDES_PATH.open("r", encoding="utf-8") as infile:
             return json.load(infile)
     return {}
+
+
+def load_feature_metadata():
+    if FEATURE_METADATA_PATH.exists():
+        with FEATURE_METADATA_PATH.open("r", encoding="utf-8") as infile:
+            return json.load(infile)
+    return {"featured_count": 3, "publications": {}}
 
 
 def normalize_name(value):
@@ -103,6 +111,39 @@ def build_publication_data(author, scholar_id, overrides):
     return grouped
 
 
+def add_featured_publications(grouped, feature_metadata):
+    allowed_types = {"research", "database", "letter"}
+    publication_meta = feature_metadata.get("publications", {})
+    featured_count = int(feature_metadata.get("featured_count", 3))
+
+    all_publications = grouped["first_or_corresponding"] + grouped["co_authored"]
+    featured_candidates = []
+
+    for entry in all_publications:
+        meta = publication_meta.get(entry["id"], {})
+        article_type = meta.get("article_type", "").lower()
+        journal_rank = meta.get("journal_rank")
+        if article_type not in allowed_types or journal_rank is None:
+            continue
+
+        candidate = dict(entry)
+        candidate["article_type"] = article_type
+        candidate["journal_rank"] = journal_rank
+        candidate["tags"] = meta.get("tags", [])
+        featured_candidates.append(candidate)
+
+    featured_candidates.sort(
+        key=lambda item: (
+            int(item["journal_rank"]),
+            -int(item["year"]) if str(item["year"]).isdigit() else 0,
+            -int(item["citation_count"]),
+            item["title"].lower(),
+        )
+    )
+    grouped["featured_publications"] = featured_candidates[:featured_count]
+    return grouped
+
+
 author: dict = scholarly.search_author_id(os.environ["GOOGLE_SCHOLAR_ID"])
 scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
 author["updated"] = datetime.now(timezone.utc).isoformat()
@@ -117,6 +158,10 @@ publication_data = build_publication_data(
     author,
     os.environ["GOOGLE_SCHOLAR_ID"],
     load_overrides(),
+)
+publication_data = add_featured_publications(
+    publication_data,
+    load_feature_metadata(),
 )
 with open("results/google_scholar_publications.json", "w", encoding="utf-8") as outfile:
     json.dump(publication_data, outfile, ensure_ascii=False, indent=2)
